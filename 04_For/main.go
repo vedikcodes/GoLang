@@ -16,11 +16,11 @@ func main() {
 
 	}
 
-	for i := range 3 {
+	for i := range 3 { //Another way of accomplishing the basic “do this N times” iteration is range over an integer.
 		fmt.Println("range ", i)
 	}
 
-	for {
+	for { //for without a condition will loop repeatedly until you break out of the loop or return from the enclosing function.
 		fmt.Println("loop")
 		break
 	}
